@@ -4,7 +4,7 @@
 // [-4, -6, 89, 6] -> 0
 
 int[] array = GetArray(6, -9, 9);
-Console.Write(String.Join(" ", array));
+Console.Write(String.Join(",", array));
 int SumOddNumbers = GetSumOddNumbers(array);
 Console.Write($" -> {SumOddNumbers}");
 
